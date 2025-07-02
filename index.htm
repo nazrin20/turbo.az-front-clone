@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="flex justify-evenly pt-1.5 h-10">
+            <div class="contact1 flex">
+                <h1><a href="#" class="text-white font-bold text-xl px-4 hidden">TURBO.AZ</a></h1>
+                <h1><a href="#" id="tapAz" class="px-3 text-gray-400 hover:text-red-600 ">Tap.az</a></h1>
+                <h1><a href="#" class="px-3 text-gray-400 hover:text-red-600 ">Bina.az</a></h1>
+                <h1><a href="#" id="boss" class="px-3 text-gray-400 hover:text-red-600 ">Boss.az</a></h1>
+            </div>
+            <div class="contact2">
+                <span>Dəstək :<a href="#" class="px-1 hover:text-red-600 ">(012) 526-47-47</a></span>
+                <a href="#" class="px-3 text-gray-400 hover:text-red-600 ">Yardım</a>
+                <a href="#" class="px-3 text-gray-400 hover:text-red-600 ">RU</a>
+                <a href="#" class="px-3 text-gray-400 hover:text-red-600 "><span class="px-2"> <i
+                            class="fa-solid fa-heart"></i> </span>Seçilmişlər</a>
+                <a href="#" class="px-3 text-gray-400 hover:text-red-600 "><span class="px-2"> <i
+                            class="fa-regular fa-circle-user"></i> </span>Giriş</a>
+            </div>
+        </div>
+        <div id="menu" class="flex justify-evenly bg-red-700 h-15 pt-3">
+            <div class="flex">
+                <h1><a href="#" class="text-white font-bold text-xl px-4">TURBO.AZ</a></h1>
+                <a href="#" class="pt-1 px-1.5 text-white hover:text-red-200">Bütün elanlar</a>
+                <a href="#" class="pt-1 px-1.5 text-white hover:text-red-200">Dilerlər</a>
+                <a href="#" class="pt-1 px-1.5 text-white hover:text-red-200">Avtokataloq</a>
+                <a href="#" class="pt-1 px-1.5 text-white hover:text-red-200">Moto</a>
+                <div class="relative inline-block group pt-1">
+                    <a href="#" class=" px-1.5 text-white hover:text-red-200">Ehtiyat hissələr və aksesuarlar
+                        <div
+                            class="absolute left-0 mt-2.5 w-60  bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Aksesuarlar</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Audio və video
+                                texnika</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Avtokosmetika və
+                                avtokimya</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Ehtiyat hissələr</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">GPS naviqatorlar</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Qeydiyyat nişanları</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Siqnalizasiyalar</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Videoqeydiyyatçılar</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Şinlər, disklər və
+                                təkərlər</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digər</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative inline-block group pt-1">
+                    <a href="#" class="pt-1 px-1.5 text-white hover:text-red-200">İcarə
+                        <div
+                            class="absolute left-0 mt-2.5 w-60 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Avtomobillər</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Avtobus və
+                                mikroavtobuslar</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Motosiklet və
+                                mopedlər</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Xüsusi texnika</a>
+                            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Digər</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <button id="greenBtn" class="text-white bg-[#7ED321] p-2 rounded-md cursor-pointer hover:bg-[#7dd321df]"><span
+                        class="px-1"><i class="fa-solid fa-circle-plus"></i></span>Yeni elan</button>
+            </div>
+        </div>
+    </header>
+    <main class="bg-gray-600">
+        <div class="flex justify-center items-center bg-gray-100 text-[16px]">
+            <div id="brandRes" class=" w-3/4 pt-5 px-4 flex py-3">
+                <select onchange="filterBrand()" id="brand" class="text-gray-400 cursor-pointer bg-white py-3 px-4  w-[250px] rounded-[6px] mx-3 ">
+                    <option disabled selected class="text-center">Marka</option>
+                </select>
+                <select id="model" class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[250px] rounded-[6px] ">
+                    <option disabled selected class="text-center">Model</option>
+                </select>
+                <button onclick="redSelect(this)" id="btn1" class="text-white bg-red-600 cursor-pointer p-[4px] w-[70px] py-3 px-4 rounded-l-[6px] ml-3 ">Hamisi</button>
+                <button onclick="redSelect(this)" id="btn2" class="text-gray-400 cursor-pointer bg-white p-[4px] w-[70px] py-3 px-4  mx-[.5px]">Yeni</button>
+                <button onclick="redSelect(this)" id="btn3" class="text-gray-400 cursor-pointer bg-white p-[4px] w-[90px] py-3 px-4 rounded-r-[6px] mr-3 ">Surulmus</button>
+                <select id="city" class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[230px] rounded-[6px] ">
+                    <option disabled selected class="text-center ">Seher</option>
+                </select>
+            </div>
+        </div>
+        <div class="flex justify-center items-center bg-gray-100 text-[16px]">
+            <div class=" w-3/4 px-4 flex pb-3">
+                <input type="text" id="int1" class="bg-white cursor-pointer ml-3 py-3 px-4 w-[120px] rounded-l-[6px] text-center  " placeholder="Qiymet, min.">
+                <input type="text" id="int2" class="bg-white cursor-pointer  py-3 px-4 w-[100px] rounded-r-[6px] text-center  " placeholder="maks.">
+                <select id="currency" class="cursor-pointer bg-white  w-[85px] py-3 px-4 ml-3 rounded-[6px]  text-center">
+                    <option disabled selected>AZN</option>
+                </select>
+                <button id="btnCredit" class=" cursor-pointer bg-white  w-[80px] py-3 px-4 ml-3 rounded-[6px]">Kredit</button>
+                <button id="btnBarter" class=" cursor-pointer bg-white  w-[80px] py-3 px-4 ml-3 rounded-[6px]">Barter</button>
+                <select  id="banType" class="text-gray-400 cursor-pointer bg-white  w-[220px] py-3 px-4 ml-8 rounded-[6px]">
+                    <option disabled selected>Ban novu</option>
+                </select>
+                <div id="yearAll" class="flex ml-3 ">
+                    <select id="yearIn" class="text-gray-400 cursor-pointer bg-white w-[120px] py-3 px-4  mr-0.5 rounded-l-[6px]">
+                        <option disabled selected>IL, min.</option>
+                    </select>
+                    <select id="yearOff" class="text-gray-400 cursor-pointer bg-white w-[113px] py-3 px-4  rounded-r-[6px]">
+                        <option disabled selected>maks.</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="hiddenDiv" class="hidden">
+            <div id="colorDiv" class="flex justify-center items-center bg-gray-100 text-[16px]">
+                <div class=" w-3/4  px-4 flex pb-3">
+                    <select id="colorSelect" class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[232px] rounded-[6px] mx-3 ">
+                        <option disabled selected class="text-center">Reng</option>
+                    </select>
+                    <select id="fuelSelect"  class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[232px] rounded-[6px] mx-3 ">
+                        <option disabled selected class="text-center">Yanacaq novu</option>
+                    </select>
+                    <select id="trackSelect" class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[232px] rounded-[6px] mx-3 ">
+                        <option disabled selected class="text-center">Oturucu</option>
+                    </select>
+                    <select id="speedSelect" class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[232px] rounded-[6px] mx-3 ">
+                        <option disabled selected class="text-center">Suret qutusu</option>
+                    </select>
+                </div>
+            </div>
+            <div id="vaakumDiv" class="flex justify-center items-center bg-gray-100 text-[16px]">
+                <div class=" w-3/4  px-4 flex pb-3">
+                    <div class="flex ml-3">
+                        <select class="text-gray-400 cursor-pointer bg-white w-[170px] py-3 px-4 rounded-l-[6px]  text-center">
+                            <option disabled selected>Hecm (sm³),min.</option>
+                        </select>
+                        <select class="text-gray-400 cursor-pointer bg-white w-[150px] py-3 px-4 rounded-r-[6px]  text-center">
+                            <option disabled selected>maks.</option>
+                        </select>
+                    </div>
+                    <div class="flex ml-5">
+                        <select class="text-gray-400 cursor-pointer bg-white w-[170px] py-3 px-4 rounded-l-[6px]  text-center">
+                            <option disabled selected>Guc (a. g.), min.</option>
+                        </select>
+                        <select class="text-gray-400 cursor-pointer bg-white w-[150px] py-3 px-4 rounded-r-[6px]  text-center">
+                            <option disabled selected>maks.</option>
+                        </select>
+                    </div>
+                    <div class="flex ml-5">
+                        <select class="text-gray-400 cursor-pointer bg-white w-[170px] py-3 px-4 rounded-l-[6px]  text-center">
+                            <option disabled selected>Yurus (km), min.</option>
+                        </select>
+                        <select class="text-gray-400 cursor-pointer bg-white w-[150px] py-3 px-4 rounded-r-[6px]  text-center">
+                            <option disabled selected>maks.</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="bazarDiv" class="flex justify-center items-center bg-gray-100 text-[16px]">
+                <div class=" w-3/4  px-4 flex pb-3">
+                    <button onclick="red1Select(this)" id="btn4" class="text-white bg-red-600 cursor-pointer w-[70px] py-3 px-4 rounded-l-[6px] ml-3 ">Hamisi</button>
+                    <button onclick="red1Select(this)" id="btn5" class="text-gray-400 cursor-pointer bg-white  w-[100px] py-3 px-4">Dilerler</button>
+                    <button onclick="red1Select(this)" id="btn6" class="text-gray-400 cursor-pointer bg-white w-[90px] py-3 px-4 rounded-r-[6px] mr-3 ">Sexsi</button>
+                    <select class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[230px] rounded-[6px] mx-2  text-center ">
+                        <option disabled selected>Sahiblerin sayi</option>
+                    </select>
+                    <select class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[230px] rounded-[6px] mx-2  text-center">
+                        <option disabled selected>Yerlerin sayi</option>
+                    </select>
+                    <select class="text-gray-400 cursor-pointer bg-white py-3 px-4 w-[230px] rounded-[6px] mx-2  text-center">
+                        <option disabled selected>Hansi bazar ucun yigilib</option>
+                    </select>
+                </div>
+            </div>
+            <div id="statusDiv" class="flex justify-center items-center bg-gray-100 text-[16px]">
+                <div class=" w-3/4  px-4 flex pb-3">
+                    <button id="btn7" class="cursor-pointer bg-white  w-[150px] py-3 px-4  ml-3 rounded-[6px]">Vurgu yoxdur</button>
+                    <button id="btn8" class="cursor-pointer bg-white  w-[150px] py-3 px-4  ml-3 rounded-[6px]">Renglenmeyib</button>
+                    <button id="btn9" class="cursor-pointer bg-white  w-[250px] py-3 px-4  ml-3 rounded-[6px]">Yalniz qezali avtomobiller</button>
+                    <select class="text-gray-400 cursor-pointer bg-white  w-[200px] py-3 px-4 p-[4px] ml-3 rounded-[6px]">
+                        <option disabled selected class="text-center">Status</option>
+                    </select>
+                </div>
+            </div>
+            <div id="techizatDiv" class="text-[14px]">
+                <div class="flex justify-center items-center bg-gray-100">
+                    <div class=" w-3/4  px-4 flex pb-3">
+                        <p class="pl-4 py-4 text-[16px]">Avtomobilin təchizatı</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center bg-gray-100">
+                    <div class=" w-3/4  px-4 flex  flex-wrap ml-6">
+                        <button id="btn21" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Yungul lehimli diskler</button>
+                        <button id="btn22" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">ABS</button>
+                        <button id="btn10" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Lyuk</button>
+                        <button id="btn11" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Yagis sensoru</button>
+                        <button id="btn12" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Merkezi qapanma</button>
+                        <button id="btn13" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Park radari</button>
+                        <button id="btn14" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Kondisioner</button>
+                        <button id="btn15" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Oturacaqlarin isidilmesi</button>
+                        <button id="btn16" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Deri salon</button>
+                        <button id="btn17" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Ksenol lampalar</button>
+                        <button id="btn18" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Arxa goruntu kamerasi</button>
+                        <button id="btn19" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Yan perdeler</button>
+                        <button id="btn20" class="bg-white  py-3 px-4 cursor-pointer mr-3 mb-3 rounded-[6px]">Oturacaqlarin ventilyasiyasi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="finalBtn">
+            <div class="flex justify-center items-center bg-gray-100">
+                <div class=" w-3/4 flex pr-2 pb-2 pl-6 flex-wrap pt-3 ml-48 items-center">
+                    <p>Bu gun : <a href="#" class="text-blue-600">46 yeni elan</a></p>
+                </div>
+                <div class=" w-3/4 p-2 block md:flex lg:flex sm:flex flex-wrap justify-center items-center mr-40">
+                    <button onclick="resetBtn()" id="resetFilterBtn" class="cursor-pointer px-4 text-gray-400">Sifirla</button>
+                    <button onclick="openBtn()" id="openFilterBtn" class="cursor-pointer px-4 text-red-700">Daha cox filter</button>
+                    <button onclick="closeBtn()" id="closeFilterBtn" class="cursor-pointer px-4 hidden text-red-700">Gizlet</button>
+                    <button onclick="filter()" class="cursor-pointer px-9 mr-2 bg-red-700 py-3 rounded-[5px] text-white">Elanlari goster</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <!-- <div id="todayDiv" class="hidden">Bu gun : <a href="#">2521 yeni elan</a></div> -->
+            <div id="masinList" class="bg-gray-100 w-3/4 grid grid-cols-4"></div>
+        </div> 
+    </main>
+    <footer class="flex justify-center bg-gray-600">
+        <div class="w-3/4">
+            <div id="reklamDiv" class=" bg-gray-200 flex justify-between pl-4 w-full border-y border-gray-400">
+                <div class=" block pt-17">
+                    <h1 class="font-bold text-[25px]">Hər şey bir tətbiqdə!</h1>
+                    <div class="flex pt-5">
+                        <a href="#"><img src="img/app-store.png" alt="img" class="w-[150px] pr-2"></a>
+                        <a href="#"><img src="img/google-play.png" alt="img" class="w-[150px] pr-2"></a>
+                        <a href="#"><img src="img/app-gallery.png" alt="img" class="w-[150px] pr-2"></a>
+                    </div>
+                </div>
+                <div class="flex gap-15">
+                    <div>
+                        <img src="img/footer-mobil.png" alt="img" class="w-[200px] h-[230px]">
+                    </div>
+                    <div class="w-[150px] pt-7">
+                        <img src="img/footer-qr.png" alt="img" class="w-[100px] h-[100px]">
+                        <p class=" text-gray-700">Yükləmək üçün kameranı QR-koda yönəldin</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg-gray-200 flex justify-between pl-4 w-full border-y border-gray-400 p-2">
+                <div id="reklamDiv" class="flex justify-center items-center">
+                    <h1><a href="#" class="py-2 text-[17px]">Reklam yerlesdirin</a></h1>
+                </div>
+                <div id="torboDiv" class="flex justify-center items-center ">
+                    <a href="#" class="text-gray-700 hover:text-red-500"><i
+                            class="fa-brands fa-facebook-f p-2 text-[20px]"></i></a>
+                    <a href="#" class="text-gray-700 hover:text-red-500"><i
+                            class="fa-brands fa-instagram p-2 text-[20px]"></i></a>
+                    <a href="#" class="text-gray-700 hover:text-red-500"><i
+                            class="fa-solid fa-envelope p-2 text-[20px]"></i>turbo@turbo.az</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500"><i
+                            class="fa-solid fa-phone p-2 text-[20px]"></i>(012) 526-47-47</a>
+                </div>
+            </div>
+            <div id="carFooter" class=" bg-gray-200 flex justify-between px-4 w-full border-y border-gray-400 p-2 gap-3 h-screen">
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Ferrari(1)</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">BMW(2)</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Jeep(3)</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Renault(4)</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Changan(5)</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Isuzu(6)</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                    <a href="#" class="text-gray-700 hover:text-red-500">Nissan(7)</a>
+                </div>
+            </div>
+            <div id="qanunDiv" class="px-4 bg-gray-200 flex justify-between pl-2 w-full border-y border-gray-400 p-2">
+                <a href="#" class=" hover:text-red-500">Qaydalar</a>
+                <a class="reklamDiv" href="#" class=" hover:text-red-500">Qanun</a>
+                <a href="#" class=" hover:text-red-500">Istifadeci razilasmasi</a>
+                <a class="!hidden lg:!inline-block" href="#" class=" hover:text-red-500">Mexfilik siyaseti</a>
+                <a href="#" class=" hover:text-red-500">Sifarişli avtomobil alan alıcı üçün tövsiyələr</a>
+                <a href="#" class=" hover:text-red-500">Reklam yerləşdirin</a>
+            </div>
+            <div id="bannerDiv" class="px-4 bg-red-500 flex justify-between pl-2 w-full ">
+                <p class="text-white">Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş <br> elanların
+                    məzmununa görə məsuliyyət daşımır.</p>
+                <p class="text-white">2006-2025 Digital Classifieds MMC.<span class="block">VÖEN: 1405631661</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

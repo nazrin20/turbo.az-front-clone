@@ -1,0 +1,80 @@
+
+@media only screen and (max-width: 768px) {
+    .contact1{
+        display: flex;
+        font-size: 20px;
+    }
+    .contact1 h1 a {
+       color: rgb(150, 8, 8);
+       display: block;
+       border-right: 1px solid gray;
+    }
+    #boss{
+        border-right: none;
+    }
+    .contact2, #tapAz, #menu, #greenBtn, #btn1, #btn2, #btn3,
+    #city, #int1, #int2, #currency, #btnCredit, #btnBarter, #banType,#yearAll, #colorDiv, #vaakumDiv, #bazarDiv, #statusDiv, #techizatDiv, #finalBtn{
+        display:none;
+    } 
+    #masinList{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: max-content;
+    }
+    #brandRes{
+        display: block;
+    }
+    #brand{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #model{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    #masinDiv{
+        display: block;
+    }
+    #masinList{
+        display: flex;
+    }
+    /* #todayDiv{
+        display: flex;
+        height: ;
+    } */
+     #carFooter, #reklamDiv{
+        display: none;
+     }
+     #qanunDiv{
+        display: block;
+     }
+     #qanunDiv a{
+        display: block;
+        padding: 3px 0;
+        font-size: 13px;
+     }
+     footer{
+        background-color: #e5e7eb
+     }
+     #bannerDiv{
+        display: block;
+        background-color: #e5e7eb;
+     }
+     #bannerDiv p{
+        color: black;
+        padding: 5px 0;
+        font-size: 13px;
+     }
+     #torboDiv{
+        display: flex;
+        font-size: 11px;
+     }
+     #torboDiv i{
+        font-size: 16px;
+     }
+}
